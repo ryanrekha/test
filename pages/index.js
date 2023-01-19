@@ -88,7 +88,7 @@ const Home = () => (
           <NextLink href=" " passHref>
             <Link target="_blank">brainev;</Link>
           </NextLink>
-          &quot; which has 4 members.
+          &quot; which has 4 members, include me.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
