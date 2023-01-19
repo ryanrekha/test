@@ -17,7 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoWhatsapp } from 'react-icons/io5'
 import thumbSpotify from '../public/images/links/spotify.png'
 import thumbMail from '../public/images/works/mail.jpg'
 import Image from 'next/image'
@@ -123,13 +123,13 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/ryanrekha" target="_blank">
+            <Link href=" https://wa.me/+6281361208715" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoGithub />}
+                leftIcon={<IoLogoWhatsapp />}
               >
-                @ryanrekha
+                @citto
               </Button>
             </Link>
           </ListItem>
