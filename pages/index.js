@@ -37,15 +37,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an project manager from brainev; based in Indonesia!
+        Hello, I&apos;m an founder; based in Indonesia!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            ryan 
+            citto 
           </Heading>
-          <p>(Project Manager)</p>
+          <p>(Founder)</p>
         </Box>
         <Box
           flexShrink={0}
@@ -67,8 +67,8 @@ const Home = () => (
               src="/images/profile.jpeg"
               alt="Profile image"
               borderRadius="full"
-              width="100%"
-              height="100%"
+              width="300%"
+              height="300%"
             />
           </Box>
         </Box>
@@ -76,19 +76,19 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Lazy for Work
         </Heading>
         <Paragraph>
-          ryan is a freelance and a project manager based in Bandung with a
-          passion for design digital services/stuff he wants. He has a knack
+          vimalacitto is a founder and a looking for event based in Indonesia with a
+          passion for a job. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with teams. {''}
-          He looking for clients for his vendor and his teams
+          fuck u big toket
            &quot;
           <NextLink href=" " passHref>
-            <Link target="_blank">brainev;</Link>
+            <Link target="_blank">toket;</Link>
           </NextLink>
-          &quot; which has 4 members, include me.
+          &quot; which has 1 dick, include me.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
